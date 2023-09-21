@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <title>heheheheheh</title>
+    <style>
+        /* Estilo para el fondo de la página */
+        body {
+            background-color: #7d6868; /* Un gris claro */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para el contenedor principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Estilo para el contenedor de las flores */
+        .flower-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        /* Estilo para cada flor */
+        .flower {
+            background-color: yellow;
+            border: 5px solid #FFD700; /* Borde amarillo */
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px;
+            position: relative;
+        }
+
+        /* Estilo para los pétalos */
+        .petal {
+            background-color: yellow;
+            border: 5px solid #FFD700; /* Borde amarillo */
+            width: 50px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+        }
+
+        .petal:nth-child(1) {
+            transform: rotate(45deg);
+        }
+
+        .petal:nth-child(2) {
+            transform: rotate(90deg);
+        }
+
+        .petal:nth-child(3) {
+            transform: rotate(135deg);
+        }
+
+        .petal:nth-child(4) {
+            transform: rotate(180deg);
+        }
+
+        .petal:nth-child(5) {
+            transform: rotate(225deg);
+        }
+
+        /* Estilo para el mensaje */
+        .message-container {
+            background-color: #FFD700; /* Fondo amarillo */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .message {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flower-container">
+            <div class="flower">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+            <div class="flower">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+            <div class="flower">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+        </div>
+        <div class="message-container">
+            <div class="message">Te amo Romina<i class="ri-heart-3-fill"></i></div>
+        </div>
+        <div class="flower-container">
+            <div class="flower">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+            <div class="flower">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+            <div class="flower">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
